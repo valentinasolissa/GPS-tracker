@@ -1,0 +1,13 @@
+syntax = "proto3"; //Tells computer to use modern version of Protobuf
+
+package gpstracker; //Package name avoids naming conflicts
+
+// Message structure send from RaspberryPi to Cloud
+message DeviceStatus {
+  string device_id = 1;
+  double latitude = 2;
+  double longitude = 3;
+  int64 timestamp = 4;
+  bool is_safe = 5;
+}
+  

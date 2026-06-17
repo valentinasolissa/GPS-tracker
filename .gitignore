@@ -1,0 +1,15 @@
+# Secrets and local env
+tracker_app/.env
+
+# Python
+tracker_app/venv/
+tracker_app/__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
